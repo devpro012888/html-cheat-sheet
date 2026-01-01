@@ -9,3 +9,16 @@
 span {
     color: blue;
 }
+
+.structure-pages-code {
+border: 1px solid black;
+width: 35%;
+padding: 1%;
+}
+
+.structure-pages-result {
+    border: 1px solid black;
+    width: 35%;
+    padding: 1%;
+    float: right;
+}
