@@ -10,15 +10,54 @@ span {
     color: blue;
 }
 
-.structure-pages-code {
+body {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Structure of Pages Section (Code View) */
+.structure-pages-code { 
 border: 1px solid black;
 width: 35%;
 padding: 1%;
+flex-grow: 1;
 }
 
+/* Structure of Pages Section (Result View) */
 .structure-pages-result {
     border: 1px solid black;
     width: 35%;
     padding: 1%;
-    float: right;
+    flex-grow: 2;
 }
+
+/* Styles the Structure Section */
+.structure {
+    display: flex;
+    float: right;
+    width: 75%;
+    gap: 2%;
+}
+
+/* Center's the Page Header */
+.page-header {
+    text-align: center;
+}
+
+/* Styles the Navigation Bar */
+ul, li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
